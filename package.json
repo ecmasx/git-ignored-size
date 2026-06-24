@@ -1,0 +1,28 @@
+{
+  "name": "git-ignored-size",
+  "version": "1.0.0",
+  "description": "Show how much disk space Git-ignored files and directories use.",
+  "type": "module",
+  "bin": {
+    "git-ignored-size": "bin/git-ignored-size.js",
+    "ignored-size": "bin/git-ignored-size.js",
+    "gis": "bin/git-ignored-size.js"
+  },
+  "files": [
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "git",
+    "ignored",
+    "size",
+    "clean",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
